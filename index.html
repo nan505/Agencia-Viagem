@@ -20,11 +20,15 @@
                     <img src="./img/logo-64.png" alt="Logo VavaMH">
                 </a>
 
+                <!-- Menu hambúrguer -->
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" 
                 aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
+
                 <div class="collapse navbar-collapse" id="navbarNav">
+
+                    <!-- Lista de âncoras -->
                     <ul class="navbar-nav ms-auto">
                         <li class="nav-item">
                             <a class="nav-link active" aria-current="page" href="#">Home</a>
@@ -36,6 +40,7 @@
                             <a class="nav-link" href="#">Destinos</a>
                         </li>
                     </ul>
+
                 </div>
 
             </div>
@@ -43,28 +48,29 @@
 
     </header>
 
-    <div id="carouselExampleIndicators" class="carousel slide">
+    <!-- Carrossel -->
+    <div id="indicadoresCarrossel" class="carousel slide">
         <div class="carousel-indicators">
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#indicadoresCarrossel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#indicadoresCarrossel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#indicadoresCarrossel" data-bs-slide-to="2" aria-label="Slide 3"></button>
         </div>
-        <div class="carousel-inner ratio ratio-21x9">
+        <div class="carousel-inner ratio ratio-21x9 banner">
             <div class="carousel-item active">
-                <img src="./img/banner.jpg" class="banner d-block w-100 img-fluid h-100 object-fit-cover" alt="...">
+                <img src="./img/banner.jpg" class="d-block w-100 img-fluid h-100 object-fit-cover" alt="Banner montanhas">
             </div>
             <div class="carousel-item">
-                <img src="./img/chapada-diamantina.jpg" class="banner d-block w-100 img-fluid h-100 object-fit-cover" alt="...">
+                <img src="./img/chapada-diamantina.jpg" class="d-block w-100 img-fluid h-100 object-fit-cover" alt="Banner Chapada Diamantina">
             </div>
             <div class="carousel-item">
-                <img src="./img/chile.jpg" class="banner d-block w-100 img-fluid h-100 object-fit-cover" alt="...">
+                <img src="./img/chile.jpg" class="d-block w-100 img-fluid h-100 object-fit-cover" alt="Banner Chile">
             </div>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <button class="carousel-control-prev" type="button" data-bs-target="#indicadoresCarrossel" data-bs-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Previous</span>
         </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <button class="carousel-control-next" type="button" data-bs-target="#indicadoresCarrossel" data-bs-slide="next">
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Next</span>
         </button>
@@ -76,25 +82,34 @@
     </section>
 
     <section class="container">
-        <div class="row text-center">
-            <div class="col-1"><i class="bi bi-umbrella-fill fs-2 text-primary"></i></div>
-            <div class="col-3">
-                <h3>Título</h3>
-                <p>Texto</p>
+
+        <div class="row">
+
+            <div class="col-1 text-end">
+                <i class="bi bi-star fs-2 text-primary"></i>
             </div>
-            <div class="col-1"><i class="bi bi-umbrella-fill fs-2 text-primary"></i></div>
             <div class="col-3">
-                <h3>Título</h3>
-                <p>Texto</p>
+                <h3>Praticidade Total</h3>
+                <p>Deixe toda a organização com especialistas e foque apenas em aproveitar.</p>
             </div>
-            <div class="col-1"><i class="bi bi-umbrella-fill fs-2 text-primary"></i></div>
+            
+            <div class="col-1 text-end">
+                <i class="bi bi-list-ul fs-2 text-primary"></i>
+            </div>
             <div class="col-3">
-                <h3>Título</h3>
-                <p>Texto</p>
+                <h3>Planejamento</h3>
+                <p>Roteiros feitos sob medida para combinar com seu estilo, tempo e orçamento.</p>
             </div>
+            <div class="col-1 text-end"><i class="bi bi-shield fs-2 text-primary"></i></div>
+            <div class="col-3">
+                <h3>Segurança</h3>
+                <p>Viaje com suporte antes, durante e depois, evitando imprevistos e preocupações.</p>
+            </div>
+
         </div>
 
         <div class="row text-center">
+
             <div class="col-1"><i class="bi bi-umbrella-fill fs-2 text-primary"></i></div>
             <div class="col-3">
                 <h3>Título</h3>
@@ -110,10 +125,50 @@
                 <h3>Título</h3>
                 <p>Texto</p>
             </div>
+            
         </div>
+
     </section>
 
-    <footer></footer>
+    <section class="container">
+        <h1 class="fs-3 text-center mt-5 mb-2">CONHEÇA NOSSOS DESTINOS</h1>
+        <p class="text-center mb-3">
+            Descubra lugares incríveis e viva experiências inesquecíveis ao redor do mundo. 
+            Dos paraísos tropicais às cidades mais vibrantes, nossos destinos foram cuidadosamente selecionados para transformar cada viagem em uma história única. 
+            Explore, sonhe e embarque com a gente rumo ao extraordinário.
+        </p>
+
+        <div class="row mb-3">
+            <div class="col-4">
+                <img class="img-fluid img-thumbnail" src="./img/min-chapada-diamantina.jpg" alt="Paisagem da Chapada Diamantina">
+            </div>
+            <div class="col-4">
+                <img class="img-fluid img-thumbnail" src="./img/min-chile.jpg" alt="Paisagem do Chile">
+            </div>
+            <div class="col-4">
+                <img class="img-fluid img-thumbnail" src="./img/min-panama.jpg" alt="Paisagem do Panamá">
+            </div>
+        </div>
+
+        <div class="row mb-3">
+            <div class="col-4">
+                <img class="img-fluid img-thumbnail" src="./img/min-peru.jpg" alt="Paisagem do Peru">
+            </div>
+            <div class="col-4">
+                <img class="img-fluid img-thumbnail" src="./img/min-rio-de-janeiro.jpg" alt="Paisagem do Rio de Janeiro">
+            </div>
+            <div class="col-4">
+                <img class="img-fluid img-thumbnail" src="./img/min-uruguai.jpg" alt="Paisagem do Uruguai"> 
+            </div>
+        </div>
+
+    </section>
+
+    <footer class="bg-dark mt-5 text-light text-center p-3">
+        <p>Site desenvolvido por 
+            <a href="mailto:pixelado405@gmail.com" class="text-danger text-decoration-none">Nan Santos</a>
+        </p>
+    </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 </body>
